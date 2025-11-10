@@ -17,7 +17,7 @@ const Header = () => {
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="/about">About Us</NavLink>
                         <NavLink to="/services">Services</NavLink>
-                        <NavLink to="/contact">Contact</NavLink>
+                        <NavLink to="/contact">Contact Us</NavLink>
                     </nav>
                     <button className="hamburger" onClick={() => setIsMenuOpen(true)}>
                         <Menu />

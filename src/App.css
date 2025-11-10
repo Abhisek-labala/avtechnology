@@ -37,3 +37,11 @@
   }
 }
 
+.Toastify__toast-container {
+  position: fixed !important;
+  z-index: 9999;
+  bottom: 1rem;
+  right: 1rem;
+  margin: 0 !important;
+  padding: 0 !important;
+}

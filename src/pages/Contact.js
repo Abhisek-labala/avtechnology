@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import FaqItem from '../components/FaqItem';
-import { toast } from 'react-toastify';
 import { Mail, Phone, MapPin, Calendar, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
@@ -17,12 +16,12 @@ const Contact = () => {
             'IbGwBJqCQIgABWx81'    // 🔹 Replace with your EmailJS Public Key
         ).then(
             () => {
-                toast.success('Message sent successfully!');
+                alert('✅ Message sent successfully!');
                 e.target.reset();
             },
             (error) => {
                 console.error('Error:', error.text);
-                 toast.error('Failed to send message. Please try again later.');
+                alert('❌ Failed to send message. Please try again later.');
             }
         );
     };
