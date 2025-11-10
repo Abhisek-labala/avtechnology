@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import FaqItem from '../components/FaqItem';
-import { Mail, Phone, MapPin, Calendar, MessageCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Calendar } from 'lucide-react';
 
 const Contact = () => {
     const form = useRef();
