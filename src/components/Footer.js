@@ -27,9 +27,9 @@ const Footer = () => {
                 </div>
                 <div className="footer-contact">
                     <h4>Contact</h4>
-                    <p><Mail size={16} /> info@avtechnology.com</p>
-                    <p><Phone size={16} /> +1 (555) 123-4567</p>
-                    <p><MapPin size={16} /> 123 Tech Street, Digital City</p>
+                    <p><Mail size={16} /> abhisek.labala01@gmail.com</p>
+                    <p><Phone size={16} /> +91 8328826667</p>
+                    <p><MapPin size={16} /> 2116,Dharuthenga Road,Near Sai Paradise,Bhubaneswar,Odisha,751024.</p>
                 </div>
             </div>
             <div className="footer-bottom">

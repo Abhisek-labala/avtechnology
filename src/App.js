@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -22,6 +24,7 @@ function App() {
     <>
       <Header />
       <main>
+        <ToastContainer position="top-right" autoClose={4000} theme="colored" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

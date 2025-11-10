@@ -142,7 +142,7 @@ const Services = () => {
                     <div className="pricing-grid">
                         <div className="card-glass price-card" data-aos="fade-up" data-aos-delay="200">
                             <h4>Starter</h4>
-                            <p className="price">$2,999</p>
+                            <p className="price">INR 49,999</p>
                             <p className="price-description">Perfect for small businesses and startups.</p>
                             <ul>
                                 <li><CheckCircle /> Responsive Website</li>
@@ -155,7 +155,7 @@ const Services = () => {
                         </div>
                         <div className="card-glass price-card featured" data-aos="fade-up" data-aos-delay="300">
                             <h4>Professional</h4>
-                            <p className="price">$7,999</p>
+                            <p className="price">INR 149,999</p>
                              <p className="price-description">Ideal for growing businesses.</p>
                             <ul>
                                 <li><CheckCircle /> Custom Web Application</li>
@@ -168,7 +168,7 @@ const Services = () => {
                         </div>
                         <div className="card-glass price-card" data-aos="fade-up" data-aos-delay="400">
                             <h4>Enterprise</h4>
-                            <p className="price">$15,999</p>
+                            <p className="price">INR 199,999</p>
                             <p className="price-description">Complete solution for large organizations.</p>
                             <ul>
                                 <li><CheckCircle /> Full-stack Development</li>
