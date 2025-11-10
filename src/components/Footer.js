@@ -13,9 +13,14 @@ const Footer = () => {
                     </Link>
                     <p>Empowering businesses with cutting-edge technology solutions.</p>
                     <div className="social-links">
-                        <a href="#"><Linkedin /></a>
-                        <a href="#"><Twitter /></a>
-                    </div>
+  <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+    <Linkedin />
+  </a>
+  <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+    <Twitter />
+  </a>
+</div>
+
                 </div>
                 <div className="footer-links">
                     <h4>Services</h4>

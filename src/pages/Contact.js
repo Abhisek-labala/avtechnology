@@ -68,9 +68,8 @@ const Contact = () => {
                     <div className="card-glass" data-aos="fade-up">
                         <h3>Quick Actions</h3>
                         <div className="quick-actions-grid">
-                            <a href="#" className="btn-quick action-call"><Phone /> Schedule a Call</a>
-                            <a href="#" className="btn-quick action-meeting"><Calendar /> Book a Meeting</a>
-                            <a href="#" className="btn-quick action-chat"><MessageCircle /> Live Chat</a>
+                            <a href="tel:+918328826667" className="btn-quick action-call"><Phone /> Schedule a Call</a>
+                            <a href="https://calendly.com/abhisek-labala01/30min" className="btn-quick action-meeting"><Calendar /> Book a Meeting</a>
                         </div>
                     </div>
                 </div>
